@@ -875,17 +875,17 @@ PrefabInstance:
     - target: {fileID: 6835984468816662143, guid: 5a7c00a0836009446b747da88a704548,
         type: 3}
       propertyPath: m_Offset.x
-      value: -1.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6835984468816662143, guid: 5a7c00a0836009446b747da88a704548,
         type: 3}
       propertyPath: m_Offset.y
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6835984468816662143, guid: 5a7c00a0836009446b747da88a704548,
         type: 3}
       propertyPath: m_Offset.z
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a7c00a0836009446b747da88a704548, type: 3}
@@ -924,13 +924,18 @@ PrefabInstance:
     - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
         type: 3}
       propertyPath: m_MaxHealth
-      value: 50
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
         type: 3}
       propertyPath: m_HUD
       value: 
       objectReference: {fileID: 1640092738}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[1].m_HealthCost
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7206151466517118373, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
         type: 3}
       propertyPath: m_Controller

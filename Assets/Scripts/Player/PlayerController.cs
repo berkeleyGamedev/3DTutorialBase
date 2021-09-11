@@ -136,7 +136,7 @@ public class PlayerController : MonoBehaviour
         {
             right = 0;
         }
-        p_Velocity.Set(forward, right);
+        p_Velocity.Set(right, forward);
     }
 
     private void FixedUpdate()
