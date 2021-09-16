@@ -347,6 +347,11 @@ MonoBehaviour:
       type: 3}
     m_TimeToNextSpawn: 1
     m_NumberToSpawn: 0
+  - m_Name: PowerfulGhostEnemy
+    m_EnemyGO: {fileID: 5850292964154968687, guid: 897470a915775214dbb73a73cf7e6edd,
+      type: 3}
+    m_TimeToNextSpawn: 5
+    m_NumberToSpawn: 0
 --- !u!4 &762186578
 Transform:
   m_ObjectHideFlags: 0
@@ -898,6 +903,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
         type: 3}
+      propertyPath: m_Attacks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
       propertyPath: m_CameraTransform
       value: 
       objectReference: {fileID: 2127200028}
@@ -924,7 +934,7 @@ PrefabInstance:
     - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
         type: 3}
       propertyPath: m_MaxHealth
-      value: 20
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
         type: 3}
@@ -934,13 +944,99 @@ PrefabInstance:
     - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
         type: 3}
       propertyPath: m_Attacks.Array.data[1].m_HealthCost
-      value: 2
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_Name
+      value: FireBall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_Button
+      value: Fire3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_TriggerName
+      value: ShootFireball
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_AbilityGO
+      value: 
+      objectReference: {fileID: 1352507662906087214, guid: 4d5f09cfcadeb65459f4c8b3083b29ac,
+        type: 3}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_Offset.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_Offset.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_Offset.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_WindUpTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_FrozenTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_Cooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_HealthCost
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_Color.r
+      value: 0.8173489
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_Color.g
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[2].m_Color.b
+      value: 0.20060521
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[1].m_FrozenTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088745208940659415, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_Attacks.Array.data[0].m_HealthCost
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7206151466517118373, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 64665cfd02c998f438427c920f122f8b, type: 2}
+    - target: {fileID: 7206151466517118373, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
+        type: 3}
+      propertyPath: m_CullingMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7206151466526494703, guid: cbed7005cb4fa5948b0a9a8bf9544e4c,
         type: 3}
       propertyPath: m_Name

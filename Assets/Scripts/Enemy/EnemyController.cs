@@ -70,7 +70,7 @@ public class EnemyController : MonoBehaviour
     #endregion
 
     #region Collision Methods
-    private void onCollisionStay(Collision collision)
+    private void OnCollisionStay(Collision collision)
     {
         GameObject other = collision.collider.gameObject;
         if (other.CompareTag("Player"))

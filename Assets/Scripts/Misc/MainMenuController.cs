@@ -60,6 +60,7 @@ public class MainMenuController : MonoBehaviour
     public void ResetHighScore()
     {
         PlayerPrefs.SetInt("HS", 0);
+        UpdateHighScore();
     }
     #endregion
 }

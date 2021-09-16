@@ -314,6 +314,7 @@ Assets\Scripts\Misc\RotateAroundSelf.cs
 Assets\Scripts\Misc\ScoreManager.cs
 Assets\Scripts\Player\Abilities\Ability.cs
 Assets\Scripts\Player\Abilities\AbilityInfo.cs
+Assets\Scripts\Player\Abilities\FireballAttack.cs
 Assets\Scripts\Player\Abilities\LaserAttack.cs
 Assets\Scripts\Player\Abilities\MegaLaserAttack.cs
 Assets\Scripts\Player\Abilities\PlayerAttackInfo.cs
